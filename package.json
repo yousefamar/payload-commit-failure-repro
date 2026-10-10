@@ -1,0 +1,13 @@
+{
+  "name": "payload-commit-failure-repro",
+  "private": true,
+  "type": "module",
+  "description": "Minimal reproduction: @payloadcms/drizzle commitTransaction resolves when the COMMIT fails",
+  "scripts": {
+    "repro": "node repro.mjs"
+  },
+  "dependencies": {
+    "@payloadcms/db-postgres": "3.90.2",
+    "payload": "3.90.2"
+  }
+}
